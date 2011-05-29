@@ -40,7 +40,6 @@
 #pragma mark Actions
 
 - (IBAction)nextStage:(id)sender {
-    NSLog(@"next stage");
 	BOOL (^validateTextField)(NSTextField *) = ^ (NSTextField *field) {
 		[field validateEditing];
 		if ([field stringValue] != nil && [[field stringValue] length] > 0) return YES;
@@ -81,7 +80,6 @@
 
 - (void)accountInformationRetrievalSucceeded:(CLAccount *)account connectionIdentifier:(NSString *)connectionIdentifier userInfo:(id)userInfo
 {
-    NSLog(@"Got account info");
     [(CloudAppCredentials *)self.representedObject setEmail:_engine.email];
     [(CloudAppCredentials *)self.representedObject setPassword:_engine.password];
     

@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		30844F6510A2F19E00942379 /* CloudAppPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 30844F6410A2F19E00942379 /* CloudAppPlugin.m */; };
-		30844F8C10A2F27600942379 /* CloudAppPreset.m in Sources */ = {isa = PBXBuildFile; fileRef = 30844F8B10A2F27600942379 /* CloudAppPreset.m */; };
-		30844F9B10A2F29500942379 /* CloudAppUploadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 30844F9A10A2F29500942379 /* CloudAppUploadTask.m */; };
-		4BB980C71391348600E00AAE /* RMUploadKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB980C61391348600E00AAE /* RMUploadKit.framework */; };
-		4BF6A75513913A860078092A /* CloudAppCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6A75413913A860078092A /* CloudAppCredentials.m */; };
+		4B08AB541391F1DB00325181 /* RMUploadKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B08AB531391F1DB00325181 /* RMUploadKit.framework */; };
+		4B08AB6A1391F1E900325181 /* CloudAppCredentials.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B08AB571391F1E900325181 /* CloudAppCredentials.m */; };
+		4B08AB6B1391F1E900325181 /* CloudAppPreset.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B08AB591391F1E900325181 /* CloudAppPreset.m */; };
+		4B08AB6C1391F1E900325181 /* CloudAppConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B08AB5D1391F1E900325181 /* CloudAppConstants.m */; };
+		4B08AB6D1391F1E900325181 /* CloudApp.tif in Resources */ = {isa = PBXBuildFile; fileRef = 4B08AB5F1391F1E900325181 /* CloudApp.tif */; };
+		4B08AB6E1391F1E900325181 /* CredentialsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B08AB601391F1E900325181 /* CredentialsView.xib */; };
+		4B08AB6F1391F1E900325181 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B08AB611391F1E900325181 /* InfoPlist.strings */; };
+		4B08AB711391F1E900325181 /* CloudAppUploadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B08AB661391F1E900325181 /* CloudAppUploadTask.m */; };
+		4B08AB721391F1E900325181 /* CloudAppCredentialsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B08AB691391F1E900325181 /* CloudAppCredentialsViewController.m */; };
 		4BF6A7681391493B0078092A /* libCloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BF6A7671391493B0078092A /* libCloud.a */; };
-		4BF6A771139173220078092A /* CloudApp.tif in Resources */ = {isa = PBXBuildFile; fileRef = 4BF6A770139173220078092A /* CloudApp.tif */; };
-		4BF6A773139173B70078092A /* CredentialsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BF6A772139173B70078092A /* CredentialsView.xib */; };
-		4BF6A779139174D40078092A /* CloudAppCredentialsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6A776139174D30078092A /* CloudAppCredentialsViewController.m */; };
-		53A84EBD1237C54400173891 /* CloudAppConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A84EBC1237C54400173891 /* CloudAppConstants.m */; };
-		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,29 +40,29 @@
 
 /* Begin PBXFileReference section */
 		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		30844F6310A2F19E00942379 /* CloudAppPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudAppPlugin.h; sourceTree = "<group>"; };
 		30844F6410A2F19E00942379 /* CloudAppPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudAppPlugin.m; sourceTree = "<group>"; };
-		30844F8A10A2F27600942379 /* CloudAppPreset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudAppPreset.h; sourceTree = "<group>"; };
-		30844F8B10A2F27600942379 /* CloudAppPreset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudAppPreset.m; sourceTree = "<group>"; };
-		30844F9910A2F29500942379 /* CloudAppUploadTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudAppUploadTask.h; sourceTree = "<group>"; };
-		30844F9A10A2F29500942379 /* CloudAppUploadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudAppUploadTask.m; sourceTree = "<group>"; };
-		32DBCF630370AF2F00C91783 /* CloudApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudApp_Prefix.pch; sourceTree = "<group>"; };
-		4BB980C61391348600E00AAE /* RMUploadKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RMUploadKit.framework; sourceTree = "<group>"; };
-		4BF6A75313913A860078092A /* CloudAppCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudAppCredentials.h; sourceTree = "<group>"; };
-		4BF6A75413913A860078092A /* CloudAppCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudAppCredentials.m; sourceTree = "<group>"; };
+		4B08AB531391F1DB00325181 /* RMUploadKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RMUploadKit.framework; path = Frameworks/RMUploadKit.framework; sourceTree = "<group>"; };
+		4B08AB561391F1E900325181 /* CloudAppCredentials.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudAppCredentials.h; sourceTree = "<group>"; };
+		4B08AB571391F1E900325181 /* CloudAppCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudAppCredentials.m; sourceTree = "<group>"; };
+		4B08AB581391F1E900325181 /* CloudAppPreset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudAppPreset.h; sourceTree = "<group>"; };
+		4B08AB591391F1E900325181 /* CloudAppPreset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudAppPreset.m; sourceTree = "<group>"; };
+		4B08AB5B1391F1E900325181 /* CloudApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudApp_Prefix.pch; sourceTree = "<group>"; };
+		4B08AB5C1391F1E900325181 /* CloudAppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudAppConstants.h; sourceTree = "<group>"; };
+		4B08AB5D1391F1E900325181 /* CloudAppConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudAppConstants.m; sourceTree = "<group>"; };
+		4B08AB5F1391F1E900325181 /* CloudApp.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = CloudApp.tif; path = Resources/CloudApp.tif; sourceTree = "<group>"; };
+		4B08AB601391F1E900325181 /* CredentialsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CredentialsView.xib; path = Resources/CredentialsView.xib; sourceTree = "<group>"; };
+		4B08AB621391F1E900325181 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B08AB651391F1E900325181 /* CloudAppUploadTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudAppUploadTask.h; sourceTree = "<group>"; };
+		4B08AB661391F1E900325181 /* CloudAppUploadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudAppUploadTask.m; sourceTree = "<group>"; };
+		4B08AB681391F1E900325181 /* CloudAppCredentialsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudAppCredentialsViewController.h; sourceTree = "<group>"; };
+		4B08AB691391F1E900325181 /* CloudAppCredentialsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudAppCredentialsViewController.m; sourceTree = "<group>"; };
+		4B08AB731391F3EA00325181 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BF6A75C139149290078092A /* Cloud.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cloud.xcodeproj; path = Frameworks/libCloud/Source/libCloud/Cloud.xcodeproj; sourceTree = "<group>"; };
 		4BF6A7671391493B0078092A /* libCloud.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCloud.a; sourceTree = SOURCE_ROOT; };
-		4BF6A770139173220078092A /* CloudApp.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = CloudApp.tif; sourceTree = "<group>"; };
-		4BF6A772139173B70078092A /* CredentialsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CredentialsView.xib; sourceTree = "<group>"; };
-		4BF6A775139174D30078092A /* CloudAppCredentialsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudAppCredentialsViewController.h; sourceTree = "<group>"; };
-		4BF6A776139174D30078092A /* CloudAppCredentialsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudAppCredentialsViewController.m; sourceTree = "<group>"; };
-		53A84EBB1237C54400173891 /* CloudAppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudAppConstants.h; sourceTree = "<group>"; };
-		53A84EBC1237C54400173891 /* CloudAppConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudAppConstants.m; sourceTree = "<group>"; };
 		8D5B49B6048680CD000E48DA /* CloudApp.uploader */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudApp.uploader; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -73,7 +73,7 @@
 			files = (
 				4BF6A7681391493B0078092A /* libCloud.a in Frameworks */,
 				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
-				4BB980C71391348600E00AAE /* RMUploadKit.framework in Frameworks */,
+				4B08AB541391F1DB00325181 /* RMUploadKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +85,7 @@
 			children = (
 				4BF6A75C139149290078092A /* Cloud.xcodeproj */,
 				08FB77AFFE84173DC02AAC07 /* Classes */,
-				32C88E010371C26100C91783 /* Other Sources */,
+				4B08AB5A1391F1E900325181 /* Other Sources */,
 				089C167CFE841241C02AAC07 /* Resources */,
 				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
 				19C28FB8FE9D52D311CA2CBB /* Products */,
@@ -105,10 +105,10 @@
 		089C167CFE841241C02AAC07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4BF6A770139173220078092A /* CloudApp.tif */,
-				8D5B49B7048680CD000E48DA /* Info.plist */,
-				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
-				4BF6A772139173B70078092A /* CredentialsView.xib */,
+				4B08AB731391F3EA00325181 /* Info.plist */,
+				4B08AB5F1391F1E900325181 /* CloudApp.tif */,
+				4B08AB601391F1E900325181 /* CredentialsView.xib */,
+				4B08AB611391F1E900325181 /* InfoPlist.strings */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -118,14 +118,9 @@
 			children = (
 				30844F6310A2F19E00942379 /* CloudAppPlugin.h */,
 				30844F6410A2F19E00942379 /* CloudAppPlugin.m */,
-				30844F8A10A2F27600942379 /* CloudAppPreset.h */,
-				30844F8B10A2F27600942379 /* CloudAppPreset.m */,
-				4BF6A75313913A860078092A /* CloudAppCredentials.h */,
-				4BF6A75413913A860078092A /* CloudAppCredentials.m */,
-				30844F9910A2F29500942379 /* CloudAppUploadTask.h */,
-				30844F9A10A2F29500942379 /* CloudAppUploadTask.m */,
-				4BF6A775139174D30078092A /* CloudAppCredentialsViewController.h */,
-				4BF6A776139174D30078092A /* CloudAppCredentialsViewController.m */,
+				4B08AB641391F1E900325181 /* Uploader */,
+				4B08AB551391F1E900325181 /* Model */,
+				4B08AB671391F1E900325181 /* View Controllers */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -134,7 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				4BF6A7671391493B0078092A /* libCloud.a */,
-				4BB980C61391348600E00AAE /* RMUploadKit.framework */,
+				4B08AB531391F1DB00325181 /* RMUploadKit.framework */,
 				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
 			);
 			name = "Linked Frameworks";
@@ -158,14 +153,43 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		32C88E010371C26100C91783 /* Other Sources */ = {
+		4B08AB551391F1E900325181 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				32DBCF630370AF2F00C91783 /* CloudApp_Prefix.pch */,
-				53A84EBB1237C54400173891 /* CloudAppConstants.h */,
-				53A84EBC1237C54400173891 /* CloudAppConstants.m */,
+				4B08AB561391F1E900325181 /* CloudAppCredentials.h */,
+				4B08AB571391F1E900325181 /* CloudAppCredentials.m */,
+				4B08AB581391F1E900325181 /* CloudAppPreset.h */,
+				4B08AB591391F1E900325181 /* CloudAppPreset.m */,
 			);
-			name = "Other Sources";
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B08AB5A1391F1E900325181 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4B08AB5B1391F1E900325181 /* CloudApp_Prefix.pch */,
+				4B08AB5C1391F1E900325181 /* CloudAppConstants.h */,
+				4B08AB5D1391F1E900325181 /* CloudAppConstants.m */,
+			);
+			path = "Other Sources";
+			sourceTree = "<group>";
+		};
+		4B08AB641391F1E900325181 /* Uploader */ = {
+			isa = PBXGroup;
+			children = (
+				4B08AB651391F1E900325181 /* CloudAppUploadTask.h */,
+				4B08AB661391F1E900325181 /* CloudAppUploadTask.m */,
+			);
+			path = Uploader;
+			sourceTree = "<group>";
+		};
+		4B08AB671391F1E900325181 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B08AB681391F1E900325181 /* CloudAppCredentialsViewController.h */,
+				4B08AB691391F1E900325181 /* CloudAppCredentialsViewController.m */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 		4BF6A75D139149290078092A /* Products */ = {
@@ -243,9 +267,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
-				4BF6A771139173220078092A /* CloudApp.tif in Resources */,
-				4BF6A773139173B70078092A /* CredentialsView.xib in Resources */,
+				4B08AB6D1391F1E900325181 /* CloudApp.tif in Resources */,
+				4B08AB6E1391F1E900325181 /* CredentialsView.xib in Resources */,
+				4B08AB6F1391F1E900325181 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,11 +281,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				30844F6510A2F19E00942379 /* CloudAppPlugin.m in Sources */,
-				30844F8C10A2F27600942379 /* CloudAppPreset.m in Sources */,
-				30844F9B10A2F29500942379 /* CloudAppUploadTask.m in Sources */,
-				53A84EBD1237C54400173891 /* CloudAppConstants.m in Sources */,
-				4BF6A75513913A860078092A /* CloudAppCredentials.m in Sources */,
-				4BF6A779139174D40078092A /* CloudAppCredentialsViewController.m in Sources */,
+				4B08AB6A1391F1E900325181 /* CloudAppCredentials.m in Sources */,
+				4B08AB6B1391F1E900325181 /* CloudAppPreset.m in Sources */,
+				4B08AB6C1391F1E900325181 /* CloudAppConstants.m in Sources */,
+				4B08AB711391F1E900325181 /* CloudAppUploadTask.m in Sources */,
+				4B08AB721391F1E900325181 /* CloudAppCredentialsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,12 +300,13 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+		4B08AB611391F1E900325181 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C167EFE841241C02AAC07 /* English */,
+				4B08AB621391F1E900325181 /* English */,
 			);
 			name = InfoPlist.strings;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -294,6 +319,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Frameworks\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -325,6 +351,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Frameworks\"",
 				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

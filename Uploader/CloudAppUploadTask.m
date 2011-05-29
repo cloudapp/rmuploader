@@ -45,7 +45,6 @@
         
         NSURL *fileURL = [self.uploadInfo valueForKey:RMUploadFileURLKey];
         NSString *title = [self.uploadInfo valueForKey:RMUploadFileTitleKey];
-        NSLog(@"Upload! %@, %@", fileURL, title);
         [_engine uploadFileWithName:title fileData:[NSData dataWithContentsOfMappedFile:[fileURL path]] userInfo:nil];
         
 	}
