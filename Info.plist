@@ -24,10 +24,6 @@
 	<string>CloudAppPlugin</string>
 	<key>RMUploadPluginBundleMinimumFrameworkBundleVersion</key>
 	<string>1</string>
-	<key>RMUploadPluginServiceHostKey</key>
-	<string>my.cl.ly</string>
-	<key>RMUploadPluginServiceUseSSLKey</key>
-	<false/>
 	<key>RMUploadPluginDestinationTypes</key>
 	<array>
 		<string>CloudAppPreset</string>

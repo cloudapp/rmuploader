@@ -30,6 +30,10 @@
 	return [CloudAppCredentials class];
 }
 
++ (NSURL *)serviceURL {
+	return [NSURL URLWithString:@"http://my.cl.ly/"];
+}
+
 - (id)initWithPropertyListRepresentation:(id)values
 {
     if ((self = [super initWithPropertyListRepresentation:[values objectForKey:@"super"]])) {
@@ -54,7 +58,9 @@
 }
 
 - (NSSet *)acceptedTypes {
-	return [NSSet setWithObject:(id)kUTTypeItem];
+    NSMutableSet *acceptedtypes = [[super acceptedTypes] mutableCopy];
+	[acceptedtypes addObject:(NSString *)kUTTypeItem];
+	return [acceptedtypes autorelease];
 }
 
 @end
