@@ -44,8 +44,8 @@
             return;
         
         NSURL *fileURL = [self.uploadInfo valueForKey:RMUploadFileURLKey];
-        NSString *title = [self.uploadInfo valueForKey:RMUploadFileTitleKey];
-        [_engine uploadFileWithName:title fileData:[NSData dataWithContentsOfMappedFile:[fileURL path]] userInfo:nil];
+        NSString *filePath = [fileURL path];
+        [_engine uploadFileWithName:[filePath lastPathComponent] fileData:[NSData dataWithContentsOfMappedFile:filePath] userInfo:nil];
         
 	}
 }
