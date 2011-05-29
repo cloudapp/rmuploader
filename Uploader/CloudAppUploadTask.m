@@ -23,6 +23,7 @@
         CloudAppCredentials *credentials = (CloudAppCredentials *)destination.authentication;
         _engine.email = credentials.email;
         _engine.password = credentials.password;
+        _engine.clearsCookies = YES;
     }
     return self;
 }

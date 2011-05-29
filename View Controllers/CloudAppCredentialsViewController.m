@@ -62,6 +62,7 @@
 	
     _engine.email = [[self.loginEmailField stringValue] lowercaseString];
     _engine.password = [self.loginPasswordField stringValue];
+    _engine.clearsCookies = YES;
 
     [_engine getAccountInformationWithUserInfo:nil];
     

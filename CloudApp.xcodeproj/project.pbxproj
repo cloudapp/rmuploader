@@ -49,7 +49,6 @@
 		4B08AB571391F1E900325181 /* CloudAppCredentials.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudAppCredentials.m; sourceTree = "<group>"; };
 		4B08AB581391F1E900325181 /* CloudAppPreset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudAppPreset.h; sourceTree = "<group>"; };
 		4B08AB591391F1E900325181 /* CloudAppPreset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudAppPreset.m; sourceTree = "<group>"; };
-		4B08AB5B1391F1E900325181 /* CloudApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudApp_Prefix.pch; sourceTree = "<group>"; };
 		4B08AB5C1391F1E900325181 /* CloudAppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudAppConstants.h; sourceTree = "<group>"; };
 		4B08AB5D1391F1E900325181 /* CloudAppConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudAppConstants.m; sourceTree = "<group>"; };
 		4B08AB5F1391F1E900325181 /* CloudApp.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = CloudApp.tif; path = Resources/CloudApp.tif; sourceTree = "<group>"; };
@@ -60,6 +59,7 @@
 		4B08AB681391F1E900325181 /* CloudAppCredentialsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudAppCredentialsViewController.h; sourceTree = "<group>"; };
 		4B08AB691391F1E900325181 /* CloudAppCredentialsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudAppCredentialsViewController.m; sourceTree = "<group>"; };
 		4B08AB731391F3EA00325181 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8A85A31391FD24004A6A95 /* CloudApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudApp_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		4BF6A75C139149290078092A /* Cloud.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cloud.xcodeproj; path = Frameworks/libCloud/Source/libCloud/Cloud.xcodeproj; sourceTree = "<group>"; };
 		4BF6A7671391493B0078092A /* libCloud.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCloud.a; sourceTree = SOURCE_ROOT; };
 		8D5B49B6048680CD000E48DA /* CloudApp.uploader */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudApp.uploader; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,7 +167,7 @@
 		4B08AB5A1391F1E900325181 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				4B08AB5B1391F1E900325181 /* CloudApp_Prefix.pch */,
+				4B8A85A31391FD24004A6A95 /* CloudApp_Prefix.pch */,
 				4B08AB5C1391F1E900325181 /* CloudAppConstants.h */,
 				4B08AB5D1391F1E900325181 /* CloudAppConstants.m */,
 			);
