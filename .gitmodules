@@ -1,0 +1,6 @@
+[submodule "Frameworks/CLAPIEngine"]
+	path = Frameworks/CLAPIEngine
+	url = git@github.com:cloudapp/objective-c.git
+[submodule "Frameworks/libCloud"]
+	path = Frameworks/libCloud
+	url = git@github.com:cloudapp/objective-c.git

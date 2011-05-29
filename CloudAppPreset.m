@@ -12,10 +12,7 @@
 #import "CloudAppConstants.h"
 #import "CloudAppCredentials.h"
 
-static NSString *const CLCloudAppPresetPrivateUploadKey = @"privateUpload";
-
 @implementation CloudAppPreset
-@synthesize privateUpload = _privateUpload;
 
 + (NSString *)localisedName
 {
@@ -36,7 +33,7 @@ static NSString *const CLCloudAppPresetPrivateUploadKey = @"privateUpload";
 - (id)initWithPropertyListRepresentation:(id)values
 {
     if ((self = [super initWithPropertyListRepresentation:[values objectForKey:@"super"]])) {
-        self.privateUpload = [[values valueForKey:CLCloudAppPresetPrivateUploadKey] boolValue];
+       
 	}
 	return self;
 }
@@ -45,9 +42,7 @@ static NSString *const CLCloudAppPresetPrivateUploadKey = @"privateUpload";
 {
 	NSMutableDictionary *plist = [NSMutableDictionary dictionary];
 	[plist setObject:[super propertyListRepresentation] forKey:@"super"];
-	
-	[plist setObject:[NSNumber numberWithBool:self.privateUpload] forKey:CLCloudAppPresetPrivateUploadKey];
-	
+		
 	return plist;
 }
 
@@ -55,12 +50,11 @@ static NSString *const CLCloudAppPresetPrivateUploadKey = @"privateUpload";
 {
     NSMutableSet *keyPaths = [[super keyPathsForValuesAffectingValueForKey:key] mutableCopy];
     
-    if ([key isEqualToString:RMUploadPresetDirtyKey]) {
-        NSArray *otherKeyPaths = [NSArray arrayWithObject:CLCloudAppPresetPrivateUploadKey];
-        [keyPaths addObjectsFromArray:otherKeyPaths];
-    }
-    
     return [keyPaths autorelease];
+}
+
+- (NSSet *)acceptedTypes {
+	return [NSSet setWithObject:(id)kUTTypeItem];
 }
 
 @end

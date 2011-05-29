@@ -8,10 +8,11 @@
 
 #import "CloudAppCredentials.h"
 
-static NSString *const CLCloudAppPresetEmailKey = @"email";
-static NSString *const CLCloudAppPresetPasswordKey = @"password";
+static NSString *const CLCloudAppCredentialsEmailKey = @"email";
+static NSString *const CLCloudAppCredentialsPasswordKey = @"password";
 
 @implementation CloudAppCredentials
+@synthesize email = _email, password = _password;
 
 - (NSString *)userIdentifier
 {
@@ -23,12 +24,12 @@ static NSString *const CLCloudAppPresetPasswordKey = @"password";
     NSMutableSet *keyPaths = [[super keyPathsForValuesAffectingValueForKey:key] mutableCopy];
     
     if ([key isEqualToString:RMUploadCredentialsDirtyKey]) {
-        NSArray *otherKeyPaths = [NSArray arrayWithObjects:CLCloudAppPresetEmailKey, CLCloudAppPresetPasswordKey, nil];
+        NSArray *otherKeyPaths = [NSArray arrayWithObjects:CLCloudAppCredentialsEmailKey, CLCloudAppCredentialsPasswordKey, nil];
         [keyPaths addObjectsFromArray:otherKeyPaths];
     }
     
     if ([key isEqualToString:RMUploadCredentialsUserIdentifierKey])
-        [keyPaths addObject:CLCloudAppPresetEmailKey];
+        [keyPaths addObject:CLCloudAppCredentialsEmailKey];
     
     return [keyPaths autorelease];
 }
@@ -36,8 +37,8 @@ static NSString *const CLCloudAppPresetPasswordKey = @"password";
 - (id)initWithPropertyListRepresentation:(id)values
 {
     if ((self = [super initWithPropertyListRepresentation:[values objectForKey:@"super"]])) {
-        self.email = [values valueForKey:CLCloudAppPresetEmailKey];
-        self.password = [values valueForKey:CLCloudAppPresetPasswordKey];
+        self.email = [values valueForKey:CLCloudAppCredentialsEmailKey];
+        self.password = [values valueForKey:CLCloudAppCredentialsPasswordKey];
     }
 	
 	return self;
@@ -49,9 +50,9 @@ static NSString *const CLCloudAppPresetPasswordKey = @"password";
 	[plist setObject:[super propertyListRepresentation] forKey:@"super"];
 	
     if (self.email != nil)
-        [plist setObject:self.email forKey:CLCloudAppPresetEmailKey];
+        [plist setObject:self.email forKey:CLCloudAppCredentialsEmailKey];
     if (self.password != nil)
-        [plist setObject:self.password forKey:CLCloudAppPresetPasswordKey];
+        [plist setObject:self.password forKey:CLCloudAppCredentialsPasswordKey];
 	
 	return plist;
 }

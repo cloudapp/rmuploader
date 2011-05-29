@@ -6,24 +6,28 @@
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
-	<key>CFBundleName</key>
-	<string>${PRODUCT_NAME}</string>
 	<key>CFBundleIconFile</key>
-	<string></string>
+	<string>CloudApp.tif</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.linebreak.uploader.CloudApp</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
-	<key>CFBundleVersion</key>
-	<string>1</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
 	<key>NSPrincipalClass</key>
 	<string>CloudAppPlugin</string>
 	<key>RMUploadPluginBundleMinimumFrameworkBundleVersion</key>
 	<string>1</string>
+	<key>RMUploadPluginServiceHostKey</key>
+	<string>my.cl.ly</string>
+	<key>RMUploadPluginServiceUseSSLKey</key>
+	<false/>
 	<key>RMUploadPluginDestinationTypes</key>
 	<array>
 		<string>CloudAppPreset</string>

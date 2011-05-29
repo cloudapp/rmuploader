@@ -11,9 +11,7 @@
 #import "RMUploadKit/RMUploadKit.h"
 
 @interface CloudAppPreset : RMUploadPreset {
-    BOOL _privateUpload;
-}
 
-@property (nonatomic, readwrite, assign) BOOL privateUpload;
+}
 
 @end

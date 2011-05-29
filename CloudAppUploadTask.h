@@ -7,9 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
 #import "RMUploadKit/RMUploadKit.h"
 
-@interface CloudAppUploadTask : RMUploadTask
+@class CLAPIEngine;
+@interface CloudAppUploadTask : RMUploadTask {
+    CLAPIEngine *_engine;
+}
 
 @end
